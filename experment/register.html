@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    
+<section>
+    <center>
+        <h2>Upload Your Resume</h2>
+        <p>Tell us what you want to do, we’ll match your profile with relevant jobs</p>
+
+        <form >
+            <table cellpadding="10">
+
+                <tr>
+                    <td>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="phone">Mobile Number:</label><br>
+                        <input type="tel" id="phone" name="phone" required>
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td>
+                        <label for="tenth">10th Percentage:</label><br>
+                        <input type="number" id="tenth" name="tenth" min="0" max="100" required>
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td>
+                        <label for="twelfth">12th Percentage:</label><br>
+                        <input type="number" id="twelfth" name="twelfth" min="0" max="100" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="field">Field You Want to Work In:</label><br>
+                        <select id="field" name="field" required>
+                            <option value="">-- Select Field --</option>
+                            <option value="software">Software / IT</option>
+                            <option value="data">Data Science / Analytics</option>
+                            <option value="hr">Human Resources</option>
+                            <option value="sales">Sales / Business Development</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="experience">Experience:</label><br>
+                        <input type="text" id="experience" name="experience">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+</section>
+
+</body>
+</html>

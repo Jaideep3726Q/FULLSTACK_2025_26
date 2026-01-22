@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply Job</title>
+</head>
+<body>
+
+<center>
+    <h2>Apply for Job</h2>
+    <p>Please fill the application form carefully</p>
+
+    <form action="submit.html" method="post" enctype="multipart/form-data">
+        <table cellpadding="10">
+
+            <tr>
+                <td>
+                    <label>Full Name:</label><br>
+                    <input type="text" name="fullname" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Mobile Number:</label><br>
+                    <input type="tel" name="mobile" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Alternate Mobile Number:</label><br>
+                    <input type="tel" name="altmobile">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Father's Name:</label><br>
+                    <input type="text" name="father">
+                </td>
+                <td>
+                    <label>Mother's Name:</label><br>
+                    <input type="text" name="mother">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label>Degree:</label><br>
+                    <input type="checkbox" name="degree" value="BTech"> B.Tech
+                    <input type="checkbox" name="degree" value="MSc"> M.Sc
+                    <input type="checkbox" name="degree" value="BCA"> BCA
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label>Hobbies:</label><br>
+                    <input type="text" name="hobbies" placeholder="Reading, Coding, Sports">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Company Name:</label><br>
+                    <select name="company" required>
+                        <option value="">-- Select Company --</option>
+                        <option>Amazon</option>
+                        <option>Google</option>
+                        <option>Microsoft</option>
+                        <option>TCS</option>
+                        <option>Infosys</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Post Applying For:</label><br>
+                    <select name="post" required>
+                        <option value="">-- Select Post --</option>
+                        <option>Web Developer</option>
+                        <option>Software Engineer</option>
+                        <option>Data Analyst</option>
+                        <option>UI/UX Designer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label for="resume">Upload Resume:</label><br>
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                    </td>
+                </tr>
+
+            <tr>
+                <td>
+                    <label>Upload National Certificate (PDF only):</label><br>
+                    <input type="file" name="certificate" accept=".pdf">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label>Any Other Information:</label><br>
+                    <textarea name="otherinfo" rows="4" cols="40"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit Application">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</center>
+
+</body>
+</html>
